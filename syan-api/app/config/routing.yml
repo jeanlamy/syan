@@ -1,3 +1,8 @@
 app:
     resource: "@AppBundle/Controller/"
     type:     annotation
+#REST
+users:
+  type:     rest
+  resource: AppBundle\Controller\IdeasController
+  prefix: /api
