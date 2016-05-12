@@ -2,21 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c100ed8a-a697-44b9-9607-f36516891f85" name="Default" comment="add based api methods">
+      <change type="DELETED" beforePath="$PROJECT_DIR$/syan-api/.gitignore" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/syan-api/var/logs/dev.log" afterPath="" />
+    </list>
+    <list id="f6525ddc-249c-46a2-8e0d-ff6d9fc9fb8f" name="New changelist" comment="">
       <change type="DELETED" beforePath="$PROJECT_DIR$/syan-api/web/bundles/framework" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/syan-api/app/AppKernel.php" afterPath="$PROJECT_DIR$/syan-api/app/AppKernel.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/syan-api/app/config/config.yml" afterPath="$PROJECT_DIR$/syan-api/app/config/config.yml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/syan-api/app/config/parameters.yml" afterPath="$PROJECT_DIR$/syan-api/app/config/parameters.yml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/syan-api/app/config/routing.yml" afterPath="$PROJECT_DIR$/syan-api/app/config/routing.yml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/syan-api/composer.json" afterPath="$PROJECT_DIR$/syan-api/composer.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/syan-api/composer.lock" afterPath="$PROJECT_DIR$/syan-api/composer.lock" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/syan-api/var/cache/dev/appDevDebugProjectContainer.php" afterPath="$PROJECT_DIR$/syan-api/var/cache/dev/appDevDebugProjectContainer.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/syan-api/var/cache/dev/appDevDebugProjectContainer.php.meta" afterPath="$PROJECT_DIR$/syan-api/var/cache/dev/appDevDebugProjectContainer.php.meta" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/syan-api/var/cache/dev/appDevDebugProjectContainer.xml" afterPath="$PROJECT_DIR$/syan-api/var/cache/dev/appDevDebugProjectContainer.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/syan-api/var/cache/dev/appDevDebugProjectContainerCompiler.log" afterPath="$PROJECT_DIR$/syan-api/var/cache/dev/appDevDebugProjectContainerCompiler.log" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/syan-api/var/cache/dev/classes.map" afterPath="$PROJECT_DIR$/syan-api/var/cache/dev/classes.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/syan-api/var/logs/dev.log" afterPath="$PROJECT_DIR$/syan-api/var/logs/dev.log" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/syan-api/vendor/composer/autoload_namespaces.php" afterPath="$PROJECT_DIR$/syan-api/vendor/composer/autoload_namespaces.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/syan-api/vendor/composer/autoload_psr4.php" afterPath="$PROJECT_DIR$/syan-api/vendor/composer/autoload_psr4.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/syan-api/vendor/composer/installed.json" afterPath="$PROJECT_DIR$/syan-api/vendor/composer/installed.json" />
@@ -25,6 +21,12 @@
     <ignored path=".idea/workspace.xml" />
     <ignored path=".idea/dataSources.local.xml" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <file path="$PROJECT_DIR$/.idea/workspace.xml" ignored="false" />
+    <file path="$PROJECT_DIR$/syan-api/var/cache/dev/appDevDebugProjectContainerCompiler.log" ignored="false" />
+    <file path="$PROJECT_DIR$/syan-api/var/cache/dev/classes.map" ignored="false" />
+    <file path="$PROJECT_DIR$/syan-api/var/cache/dev/appDevDebugProjectContainer.php" ignored="false" />
+    <file path="$PROJECT_DIR$/syan-api/var/cache/dev/appDevDebugProjectContainer.xml" ignored="false" />
+    <file path="$PROJECT_DIR$/syan-api/var/cache/dev/appDevDebugProjectContainer.php.meta" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -91,18 +93,8 @@
       <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/.gitignore">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/syan-api/.gitignore">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="837">
-              <caret line="47" column="11" selection-start-line="47" selection-start-column="11" selection-end-line="47" selection-end-column="11" />
+            <state relative-caret-position="-43">
+              <caret line="11" column="20" selection-start-line="11" selection-start-column="20" selection-end-line="11" selection-end-column="20" />
               <folding />
             </state>
           </provider>
@@ -222,46 +214,6 @@
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="syan" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="syan" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="syan-api" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="var" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="syan" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="syan" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="syan-api" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="var" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="cache" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
         </subPane>
       </pane>
       <pane id="Scratches" />
@@ -305,11 +257,12 @@
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="c100ed8a-a697-44b9-9607-f36516891f85" name="Default" comment="" />
+      <changelist id="f6525ddc-249c-46a2-8e0d-ff6d9fc9fb8f" name="New changelist" comment="" />
       <created>1463059312040</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1463059312040</updated>
-      <workItem from="1463059313679" duration="3658000" />
+      <workItem from="1463059313679" duration="4119000" />
     </task>
     <task id="LOCAL-00001" summary="add base gitignore file for symfony">
       <created>1463062934700</created>
@@ -318,17 +271,24 @@
       <option name="project" value="LOCAL" />
       <updated>1463062934700</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="add based api methods">
+      <created>1463063002792</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1463063002792</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="3658000" />
+    <option name="totallyTimeSpent" value="4119000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-9" y="-9" width="1938" height="1048" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="DB Browser" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32932165" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
@@ -355,9 +315,10 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="add based api methods" />
     <MESSAGE value="add base gitignore file for symfony" />
-    <option name="LAST_COMMIT_MESSAGE" value="add base gitignore file for symfony" />
+    <MESSAGE value="add based api methods" />
+    <option name="LAST_COMMIT_MESSAGE" value="add based api methods" />
+    <option name="PRESELECT_EXISTING_CHANGELIST" value="false" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -468,16 +429,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/syan-api/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="837">
-          <caret line="47" column="11" selection-start-line="47" selection-start-column="11" selection-end-line="47" selection-end-column="11" />
+        <state relative-caret-position="287">
+          <caret line="26" column="34" selection-start-line="0" selection-start-column="0" selection-end-line="47" selection-end-column="11" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="-43">
+          <caret line="11" column="20" selection-start-line="11" selection-start-column="20" selection-end-line="11" selection-end-column="20" />
           <folding />
         </state>
       </provider>
