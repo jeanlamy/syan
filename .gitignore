@@ -1,11 +1,11 @@
 # Cache and logs (Symfony2)
-/app/cache/*
-/app/logs/*
-!app/cache/.gitkeep
-!app/logs/.gitkeep
+/syan-api/app/cache/*
+/syan-api/app/logs/*
+!syan-api/app/cache/.gitkeep
+!syan-api/app/logs/.gitkeep
 
 # Email spool folder
-/app/spool/*
+/syan-api/app/spool/*
 
 # Cache, session files and logs (Symfony3)
 /syan-api/var/cache/*
