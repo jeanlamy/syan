@@ -13,10 +13,12 @@ angular.module('syanFrontApp')
 
         $scope.removeIdea = function (idea) {
             console.info("Trying to remove idea #" + idea.id);
-            idea.$delete(function () {
-                console.info("Idea deleted");
-                $scope.ideas = Idea.query();
-            });
+            if(confirm("Are you sure?")) {
+                idea.$delete(function () {
+                    console.info("Idea deleted");
+                    $scope.ideas = Idea.query();
+                });
+            }
         };
         $scope.idea = new Idea();
         $scope.saveIdea = function () {
@@ -42,6 +44,9 @@ angular.module('syanFrontApp')
 
         $scope.editIdea = function (idea) {
             $scope.idea = idea;
+        }
+        $scope.cancel = function(){
+            $scope.idea = new Idea();
         }
 
     });

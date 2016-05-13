@@ -9,9 +9,10 @@ Basé sur FOSRestBundle. Voir tutoriel ici :
 
 http://obtao.com/blog/2013/12/creer-une-api-rest-dans-une-application-symfony/
 
-2 dépendances :
+3 dépendances :
 * friendsofsymfony/rest-bundle
 * jms/serializer-bundle
+* nelmio/cors-bundle
 
 
 Méthodes :
@@ -30,8 +31,6 @@ Lancer l'appli avec grunt :
 
 
 @todo :
-- formulaire d'ajout/modification/suppression
-- api de suppression d'une idée
-- api de modification d'une idée
-- api de creation d'une idée
+- popup sur suppression
+- interdire suppression lors de l'édit
 - finalisation

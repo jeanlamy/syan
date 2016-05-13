@@ -18,7 +18,8 @@
                 </div>
                 <div class="form-group">
                         <input type="hidden" name="id" ng-model="idea.id" value="" />
-                        <button type="submit" class="btn btn-primary">Save</button>
+                        <button type="button" class="btn btn-default" ng-click="cancel()">Cancel</button>
+                        <button type="submit" class="btn btn-primary pull-right">Save <span class="glyphicon glyphicon-ok"></span></button>
 
                 </div>
             </form>
@@ -40,10 +41,10 @@
                     <td>{{ x.name }}</td>
                     <td>{{ x.description }}</td>
                     <td>
-                        <button type="button" class="btn btn-primary" ng-click="editIdea(x)">Edit</button>
+                        <button type="button" class="btn btn-primary" ng-click="editIdea(x)" ng-disabled="idea.id">Edit</button>
                     </td>
                     <td>
-                        <button type="button" class="btn btn-danger" ng-click="removeIdea(x)">Delete</button>
+                        <button type="button" class="btn btn-danger" ng-click="removeIdea(x)" ng-disabled="idea.id">Delete</button>
                     </td>
                 </tr>
                 </tbody>
