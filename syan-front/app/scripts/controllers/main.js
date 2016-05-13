@@ -8,15 +8,16 @@
  * Controller of the syanFrontApp
  */
 angular.module('syanFrontApp')
-  .controller('MainCtrl', function ($scope, $http) {
-      $http.get("http://localhost:8000/api/ideas.json")
-          .then(function (response) {
-              
-              $scope.ideas = response.data;
+  .controller('MainCtrl', function ($scope, $http, Idea) {
+      $scope.ideas = Idea.query();
+
+      $scope.removeIdea = function(idea){
+        console.info("Trying to remove idea #"+idea.id);
+          idea.$delete(function() {
+              console.info("Idea deleted");
+              $scope.ideas = Idea.query();
           });
-    this.awesomeThings = [
-      'HTML5 Boilerplate',
-      'AngularJS',
-      'Karma'
-    ];
+      };
+
+
   });
