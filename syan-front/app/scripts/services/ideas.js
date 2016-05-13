@@ -8,6 +8,7 @@ service.factory("Idea", function ($resource) {
         {
             "delete":{method: "DELETE"},
             "update": {method: "PUT"},
+            "save": {method:"POST"},
             "reviews": {'method': 'GET', 'params': {'reviews_only': "true"}, isArray: true}
 
         }
