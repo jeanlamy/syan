@@ -10,13 +10,14 @@ Basé sur FOSRestBundle. Voir tutoriel ici :
 http://obtao.com/blog/2013/12/creer-une-api-rest-dans-une-application-symfony/
 
 dépendances :
-* friendsofsymfony/rest-bundle
-* jms/serializer-bundle
-* nelmio/cors-bundle
-* doctrine/doctrine-fixtures-bundle
+* friendsofsymfony/rest-bundle : utilisé pour construire l'api facilement
+* jms/serializer-bundle : serialise la sortie automatiquement
+* nelmio/cors-bundle : gestion du cross scripting
+* doctrine/doctrine-fixtures-bundle : gestion des data fixtures pour initialiser la base
 
 
 Méthodes :
+
 * api/ideas.json : liste des idées
 * api/ideas/<id>.json : détail d'une idée
 
@@ -33,14 +34,32 @@ Lancer l'appli avec grunt :
 
 @todo :
 - test api
-- datafixtures
 - finalisation : doc explicative + howto
 
 ## How-to
 
-First, create database, tables and load initial data
+**API Setup**
+
+First, create database, tables and load initial data :
 ```bash
+cd syan-api
+composer update
 php bin/console doctrine:database:create
 php bin/console doctrine:schema:update --force
 php bin/console doctrine:fixtures:load
 ```
+
+Run server on default port (to access API via http://localhost:8000/api) :
+```bash
+php bin/console server:run
+```
+
+**Frontend setup**
+
+Run server with grunt :
+```bash
+cd syan-front
+grunt
+grunt serve --port 9000
+```
+It will open a browser window at http://localhost:9000/
