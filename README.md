@@ -32,10 +32,6 @@ Lancer l'appli avec grunt :
   grunt serve --port 9000
 
 
-@todo :
-- test api
-- finalisation : doc explicative + howto
-
 ## How-to
 
 **API Setup**
