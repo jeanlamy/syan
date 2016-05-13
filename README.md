@@ -46,13 +46,20 @@ cd syan-api
 composer update
 php bin/console doctrine:database:create
 php bin/console doctrine:schema:update --force
-php bin/console doctrine:fixtures:load
+php bin/console doctrine:fixtures:load --purge-with-truncate
+```
+
+Optionaly run tests :
+```bash
+php bin/console doctrine:fixtures:load --purge-with-truncate
+vendor\bin\phpunit.bat
 ```
 
 Run server on default port (to access API via http://localhost:8000/api) :
 ```bash
 php bin/console server:run
 ```
+
 
 **Frontend setup**
 
