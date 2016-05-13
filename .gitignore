@@ -1,5 +1,5 @@
 #IdeaJ
-/.idea/*
+/.idea/
 
 # Cache and logs (Symfony2)
 /syan-api/app/cache/*
