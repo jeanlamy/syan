@@ -9,10 +9,11 @@ Basé sur FOSRestBundle. Voir tutoriel ici :
 
 http://obtao.com/blog/2013/12/creer-une-api-rest-dans-une-application-symfony/
 
-3 dépendances :
+dépendances :
 * friendsofsymfony/rest-bundle
 * jms/serializer-bundle
 * nelmio/cors-bundle
+* doctrine/doctrine-fixtures-bundle
 
 
 Méthodes :
@@ -31,6 +32,15 @@ Lancer l'appli avec grunt :
 
 
 @todo :
-- popup sur suppression
-- interdire suppression lors de l'édit
-- finalisation
+- test api
+- datafixtures
+- finalisation : doc explicative + howto
+
+## How-to
+
+First, create database, tables and load initial data
+```bash
+php bin/console doctrine:database:create
+php bin/console doctrine:schema:update --force
+php bin/console doctrine:fixtures:load
+```
